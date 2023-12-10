@@ -32,7 +32,7 @@ const Head = () => {
     dispatch(toggleMenu());
   };
   return (
-    <div className="grid grid-flow-col  p-5 m-2 shadow-lg">
+    <div className="relative grid grid-flow-col  p-5 m-2 shadow-lg">
       <div className="flex col-span-1 pt-1 ">
         <img
           onClick={() => toggleMenuHandler()}
